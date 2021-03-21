@@ -24,12 +24,12 @@ diff_means_2010 = (np.mean(knicks_pts))- (np.mean(nets_pts))
 print(diff_means_2010)
 
 
-plt.clf()
-#plot histogram to visualize 
-# plt.hist(knicks_pts, alpha=0.8, density = True, label='knicks_2010')
-# plt.hist(nets_pts, alpha=0.8, density = True, label='nets 2010')
-# plt.legend()
-# plt.show()
+
+plot histogram to visualize 
+plt.hist(knicks_pts, alpha=0.8, density = True, label='knicks_2010')
+plt.hist(nets_pts, alpha=0.8, density = True, label='nets 2010')
+plt.legend()
+plt.show()
 
 #calculating 2014 points
 knicks_pts_2014 = nba_2014.pts[nba_2014.fran_id == 'Knicks']
@@ -43,10 +43,10 @@ print(diff_means_2014)
 
 #plotting histogram to 
 
-# plt.hist(knicks_pts_2014, alpha=0.8, density = True, label='knicks 2014')
-# plt.hist(nets_pts_2014, alpha=0.8, density = True, label='nets 2014')
-# plt.legend()
-# plt.show()
+plt.hist(knicks_pts_2014, alpha=0.8, density = True, label='knicks 2014')
+plt.hist(nets_pts_2014, alpha=0.8, density = True, label='nets 2014')
+plt.legend()
+plt.show()
 
 
 
